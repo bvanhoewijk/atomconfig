@@ -1,0 +1,25 @@
+"*":
+  "exception-reporting":
+    userId: "6b434789-37d1-3123-62d3-04a6e874413f"
+  welcome:
+    showOnStartup: false
+  editor:
+    preferredLineLength: 200
+    tabLength: 4
+    softWrapAtPreferredLineLength: true
+    scrollPastEnd: true
+    invisibles: {}
+    fontFamily: "Consolas"
+    showInvisibles: true
+    fontSize: 13
+  core:
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+    autoHideMenuBar: true
+  "remote-sync": {}
+  atomatigit: {}
+  "markdown-preview": {}
+  linter: {}
+  "steam-pirate-ui": {}
