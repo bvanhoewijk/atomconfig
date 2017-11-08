@@ -16,4 +16,4 @@
 '.source.perl':
   'init':
     'prefix': 'init'
-    'body': '#!/usr/bin/perl\nuse warnings;\nuse strict;\n\nmy $infile = shift;\n\nopen(INFILE, "<", $infile) or die("Can\'t open input file $infile. Reason: $!");\n\nclose(INFILE);'
+    'body': '#!/usr/bin/perl\nuse warnings;\nuse strict;\nuse 5.010;\n\nmy $infile = shift;\n\nopen(my $fh, "<", $infile) or die("Can\'t open input file $infile. Reason: $!");\n\nclose($fh);'

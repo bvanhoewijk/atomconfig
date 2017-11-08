@@ -1,6 +1,9 @@
 "*":
+  "bracket-matcher":
+    highlightMatchingLineNumber: true
   core:
     autoHideMenuBar: true
+    telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
       "atom-dark-syntax"
@@ -13,7 +16,6 @@
     scrollPastEnd: true
     showInvisibles: true
     softWrapAtPreferredLineLength: true
-    tabLength: 4
   "exception-reporting":
     userId: "6b434789-37d1-3123-62d3-04a6e874413f"
   "line-ending-selector":
